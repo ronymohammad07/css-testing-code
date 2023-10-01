@@ -1,53 +1,24 @@
-/* 
-
-h1 {
-    background-color: darkblue;
-    color: white;
-    }
-p {
-    color: blueviolet;
-    font-size: 40px;
-}
-div p {
-    color: red;
-    background-color: black;
-    height: 300px;
-} */
-h2 {
-    margin-top: 50px;
-    padding-left: 65px;
-}
-.main-container-div {
-    margin-left: 60px;
-    margin-top: -62px;
-    display: flex;
+body {
+    font-size: 20px;
+    margin-left: 30px;
 }
 
-.sub-container-div {
-    height: 180px;
-    width: 50%;
-    background-color: rgb(240, 238, 248); 
-    display: flex;
-    margin-top: 60px ;
-    border-radius: 10px;
-    border: 1px solid grey;
+button {
+    height: 40px;
+    width: 250px;
+    background-color: rgb(5, 152, 98);
+    border: none;
 }
-.sub-contain-div {
-    position: relative;
-    
+button:hover {
+    background-color: rgb(0, 140, 186);
 }
-.sub-contain-div,
-.heading3 {
-    padding-top: 3px;
-    padding-left: 10px;
+.input-two {
+    height: 35px;
+    width: 250px;
+    border: 2px solid rgb(204, 204, 204);
+    color: rgb(204, 204, 204);
 }
-.sub-contain-div,
-h4,
-a {
-    padding-left: 6px;
-    text-decoration: none;
-}
-.sub-contain-div,
-p {
-    padding-left: 10px;
+.input-two:focus {
+    background-color: rgb(85, 85, 85);
+   
 }
